@@ -11,7 +11,7 @@
  * Return: Always 0(Success)
  *
  */
-Character.IsWhitespace()
+
 int main(void)
 {
 	int n;

@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /**
@@ -28,5 +28,6 @@ int main()
 		{
 			printf("%d is zero\n",n);
 		}
+return (0);
 }
 

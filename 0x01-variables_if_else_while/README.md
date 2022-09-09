@@ -1,1 +1,1 @@
-Positive or negative number
+Print last digit

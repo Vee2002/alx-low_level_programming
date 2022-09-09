@@ -1,1 +1,1 @@
-Print last digit
+Last digit

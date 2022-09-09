@@ -3,9 +3,11 @@
 /**
  * main - Entry point
  *
- * Description - Lower alphabet lowers
+ * Description - Prints  the alphabet in lowercase,
+ * followed by a new line
  *
- * Return - Always 0(Success)
+ * Return -Always 0 (Success)
+ *
  */
 
 int main(void)
@@ -16,6 +18,8 @@ int main(void)
 	{
       	  putchar(c);
 	}
+
        putchar('\n');
+
 return (0);       
 }

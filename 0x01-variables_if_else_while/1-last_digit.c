@@ -7,6 +7,7 @@
  *
  * Description - Print the last digit of number stored 
  *
+ *
  * Return: Always 0(Success)
  *
  */
@@ -14,6 +15,7 @@ int main(void)
 {
 	int n;
 	int lastdigit;
+
 	srand(time(0));
 
 		n = rand() - RAND_MAX / 2;

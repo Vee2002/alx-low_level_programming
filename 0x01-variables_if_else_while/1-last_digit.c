@@ -4,12 +4,8 @@
 
 /**
  * main - Entry point
- *
  * Description- Print the last digit of number stored 
- *
- *
  * Return: Always 0(Success)
- *
  */
 
 int main(void)

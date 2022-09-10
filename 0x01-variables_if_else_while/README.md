@@ -1,1 +1,1 @@
-Positive or negative number
+Lower alphabets omitting

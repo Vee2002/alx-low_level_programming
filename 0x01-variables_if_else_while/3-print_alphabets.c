@@ -1,9 +1,10 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  *
- * Desription: Prints the alphabets in lowercase,and then in uppercase followed by a new line
+ * Desription: Prints the alphabets in lowercase,
+ * and then in uppercase followed by a new line
+ *
  * Return: Always 0(Success)
  */
 int main(void)

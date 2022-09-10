@@ -1,13 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
  * main - Entry point
- * Description- Print the last digit of number stored 
+ * Description- Print the last digit of number stored
  * Return: Always 0(Success)
  */
-
 int main(void)
 {
 	int n;

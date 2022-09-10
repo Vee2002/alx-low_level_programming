@@ -1,1 +1,1 @@
-Lower alphabets omitting
+Print numbers

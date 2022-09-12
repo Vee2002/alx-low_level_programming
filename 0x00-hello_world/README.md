@@ -1,1 +1,1 @@
-SizeofOperator
+Size of Operator

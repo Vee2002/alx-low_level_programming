@@ -9,7 +9,7 @@
 int main(void)
 {
 	int n;
-	int lastdigit;
+	int lastnum;
 
 	srand(time(0));
 

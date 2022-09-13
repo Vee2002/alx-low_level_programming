@@ -1,1 +1,1 @@
-_Putchar function
+Print alphabets

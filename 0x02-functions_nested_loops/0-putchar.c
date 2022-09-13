@@ -7,13 +7,12 @@
  */
 
 void  _putchar();
+int c;
 
 int main(void)
 {
-	void _putchar(c)
-	{
-		_putchar(putchar);
-	}
+	c = _putchar(putchar);
+
 
 return (0);
 }

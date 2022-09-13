@@ -5,11 +5,12 @@
  *  followed by a new line
  *  Return 0(Always Success)
  */
+
 int main(void)
 {
 	char a;
 
-	for(a = 'a';b <= 'z';a++)
+	for(a = 'a';a <= 'z';a++)
 	{
 		_putchar(a);
 	}

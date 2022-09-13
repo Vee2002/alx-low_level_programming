@@ -7,12 +7,15 @@
  * Return: Always 0(Success)
  */
 
+int _putchar(void);
+
 int main(void)
-	int _putchar(void)
 {
 	int _putchar(char c)
 	{
-		return(putchar);
+		_putchar(putchar)
 	}
-	return (0);
+	return _putchar;
+
+return (0);
 }

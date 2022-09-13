@@ -6,15 +6,14 @@
  * Return: Always 0(Success)
  */
 
-int _putchar(void);
+void  _putchar();
 
 int main(void)
 {
-	int _putchar(c)
+	void _putchar(c)
 	{
 		_putchar(putchar);
 	}
-	return _putchar;
 
 return (0);
 }

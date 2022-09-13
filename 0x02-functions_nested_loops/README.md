@@ -1,1 +1,1 @@
-Print Alphabets
+Print alphabets

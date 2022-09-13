@@ -10,9 +10,9 @@ int _putchar(void);
 
 int main(void)
 {
-	int _putchar(char c)
+	int _putchar(c)
 	{
-		_putchar(putchar)
+		_putchar(putchar);
 	}
 	return _putchar;
 

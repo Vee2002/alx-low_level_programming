@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * _abs - Calculates the absolute value of a number
- * @i - parameter passes
- * Return: Absolute value
+ * @i: Parameter passed to function
+ * Return: Absolute value of input
  */
 int _abs(int i)
 {

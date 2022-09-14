@@ -1,10 +1,7 @@
-/*
- * File: 0-positive_or_negative.c
-*/
 #include "main.h"
 /**
 * main -Entry point
-* Function: print_alphabets in lowercase
+* print_alphabet -This function prints the english alphabet from a-z.
 * followed by a new line
 * Return: Void.
 */

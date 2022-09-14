@@ -3,11 +3,9 @@
  * Auth: Ebnezer Sam Oladapo
  */
 #include "main.h"
-/**
-* main -Entry point
+/** 
 * print_alphabet -This function prints the english alphabet from a-z,
-* followed by a new line
-* No arguments - Arguments are not passed
+*                   followed by a new line
 * Return: Void.
 */
 

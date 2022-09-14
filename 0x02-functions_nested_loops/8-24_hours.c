@@ -7,9 +7,16 @@
  */
 void jack_bauer(time)
 {
-	
-	for (time = 00:00; time <= 23:59; time++)
+
+	for (h = 0; h < 24; h++)
 	{
-		jack_bauer(time);
+		for (m = 0; m < 60; m++)
+		{
+			_putchar((h % 10) + '0');
+			_putchar((h % 10) + '0');
+			_putchar((m % 10) + '0');
+			_putchar((m % 10) + '0');
+			_putchar('\n');
+		}
 	}
-}
+}	

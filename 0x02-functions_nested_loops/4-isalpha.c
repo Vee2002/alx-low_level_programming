@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * main -Entry point
- * description: function that checks for alphabetic character.
- * Return: Void
+ * _isalpha: Function that checks alphabetic order
+ * @c: Parameter of the function
+ * Return: 1 if character 
+ * return 0 otherwise
  */
 int _isalpha(int c)
 /*This is the function prototype and c is the parameter*/

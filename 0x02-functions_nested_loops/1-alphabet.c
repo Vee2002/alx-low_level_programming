@@ -1,9 +1,8 @@
 /*
  * File: 0-positive_or_negative.c
- * Auth: Ebnezer Sam Oladapo
  */
 #include "main.h"
-/** 
+/**
 * print_alphabet -This function prints the english alphabet from a-z,
 *                   followed by a new line
 * Return: Void.

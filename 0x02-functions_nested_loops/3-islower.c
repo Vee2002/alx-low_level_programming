@@ -2,18 +2,19 @@
 /**
  * main - Entry point
  * description: function that checks for lowercase character.
+ * _islower: function used to check lowercase character
  * Return: Void
  */
 int _islower(int c)
 {
 
-	if(c >= 'a' && c <='z')
+	if(c >= 'a' && c <= 'z')
 	{
 		return 1;
 	}
 	else
 	{
-		return 0;
+		return (0);
 	}
 
 }

@@ -7,6 +7,7 @@
  */
 void jack_bauer(time)
 {
+	int h ,m;
 
 	for (h = 0; h < 24; h++)
 	{

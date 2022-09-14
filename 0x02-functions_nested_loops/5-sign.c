@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main: Entry point
- * print_sign: This program determines if
+ * print_sign: This function determines if
  * a number is positive or negative or zero
+ * @n: Parameter passed to function
  * Return: 1 if integer is positive and 0 if zero
  */
 int print_sign(int n)

@@ -7,6 +7,17 @@
  */
 int _abs(int i)
 {
-	_abs(i);
+	if(i > 0)
+	{
+		_abs(i);
+	}
+	else if(i < 0)
+	{
+		_abs(i);
+	}
+	else
+	{
+		_abs(i);
+	}
 	return i;
 }

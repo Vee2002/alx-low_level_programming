@@ -1,8 +1,9 @@
 #include "main.h"
 /**
-* description: Function print_alphabet to print alphabets,in lowercase,
+* main -Entry point
+* print_alphabet: Function prints alphabets,in lowercase,
 * followed by a new line
-* Return: Always 0(Success)
+* Return: Void
 */
 
 void print_alphabet(void)

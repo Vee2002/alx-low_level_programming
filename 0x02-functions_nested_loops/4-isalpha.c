@@ -8,6 +8,8 @@
  * @c: Parameter of the function
  * Return: 1 if character
  * * return 0 otherwise
+ *
+ * user_function
  */
 int _isalpha(int c)
 /*This is the function prototype and c is the parameter*/

@@ -1,12 +1,13 @@
 /*
  * File: 5-sign.c
  */
+
 #include "main.h"
 /**
- * main - Entry point
- * Function print_sign: determines if a number is positive or negative or zero
+ * print_sign: determines if a number is positive or negative or zero
  * @n: Parameter passed to function
- * Return: 1 if integer is positive and 0 if zero
+ * Return: 1 if positive and 0 if zero
+ * -1 if negative, '/' if not a digit
  */
 int print_sign(int n)
 {

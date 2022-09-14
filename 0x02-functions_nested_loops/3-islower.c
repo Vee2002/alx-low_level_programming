@@ -1,3 +1,8 @@
+/*
+ * File: 0-positive_or_negative.c
+ * Auth: Ebenezer Sam-Oladapo
+ */
+
 #include "main.h"
 /**
   * _islower: function used to check lowercase characte

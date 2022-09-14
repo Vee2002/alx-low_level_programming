@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main Entry point
- * print_sign - This program determines if
+ * main: Entry point
+ * print_sign: This program determines if
  * a number is positive or negative or zero
  * Return: 1 if integer is positive and 0 if zero
  */

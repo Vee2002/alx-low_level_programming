@@ -7,13 +7,9 @@
  */
 int _abs(int i)
 {
-	if(i > 0)
+	if (i < 0)
 	{
-		_abs(i);
-	}
-	else if(i < 0)
-	{
-		_abs(i);
+		i = i * -1;
 	}
 	else
 	{

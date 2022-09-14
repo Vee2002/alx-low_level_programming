@@ -5,12 +5,14 @@
  * Return: Void
  */
 int _isalpha(int c)
+	/*This is the function prototype and c is the parameter
+	 */
 {
 	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
-	else if (c >= 'A' && c<= 'Z')
+	else if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}

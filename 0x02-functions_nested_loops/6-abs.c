@@ -5,10 +5,8 @@
  * description: function that computes the absolute value of an integer
  * Return: Always 0
  */
-int _abs(int)
+int _abs(int i)
 {
-	int n;
-
-	abs(n);
-	_putchar('abs');
+	abs(i);
+	return i;
 }

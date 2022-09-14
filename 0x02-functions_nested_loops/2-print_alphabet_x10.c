@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - Entry point
- * Description: This code prints lowercase alphabets 10 times
+ * This code writes a function that prints lowercase alphabets 10 times
  * followed by a new line
  *  Return: Always 0(Success)
  */

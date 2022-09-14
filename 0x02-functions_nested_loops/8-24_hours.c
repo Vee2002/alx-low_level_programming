@@ -5,7 +5,7 @@
  *  starting from 00:00 to 23:59
  *  Return: Always 0(Success)
  */
-void jack_bauer(time)
+void jack_bauer(void)
 {
 	int h ,m;
 

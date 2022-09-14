@@ -4,9 +4,9 @@
 #include "main.h"
 /**
 * main -Entry point
-* print_alphabet: Function prints alphabets,in lowercase,
+* Function: print_alphabets in lowercase
 * followed by a new line
-* Return: Void
+* Return: Void.
 */
 
 void print_alphabet(void)

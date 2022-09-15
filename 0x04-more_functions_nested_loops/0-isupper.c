@@ -1,7 +1,9 @@
 #include "main.h"
 #include <stdlib.h>
 /**
-* _isupper - Checks for uppercase letters
+* _isupper - Function that
+*             checks for
+*             uppercase letters
 * @c: Parameter passed to funcrion 
 * Return: 1 if characters are uppercase,
 * and 0 if characters are otherwise

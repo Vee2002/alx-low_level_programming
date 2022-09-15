@@ -6,7 +6,7 @@
 
 #include "main.h"
 /**
- * _islower: function to
+ * int _islower: function to
  *          check if alphabet characters
  *          are in lowercase
  *

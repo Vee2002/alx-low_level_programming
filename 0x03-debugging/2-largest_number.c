@@ -1,8 +1,8 @@
 /**
  * largest_number - function returns the largest of 3 numbers
- * @a: first integer
- * @b: second integer
- * @c: third integer
+ * @a: first parameter passed
+ * @b: second parameter passed
+ * @c: parameter passed
  * Return: largest number
  */
 int largest_number(int a, int b, int c)

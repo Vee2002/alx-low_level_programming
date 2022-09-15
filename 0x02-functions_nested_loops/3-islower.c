@@ -5,10 +5,6 @@
 
 #include "main.h"
 /**
- * main - check the code
- *
- * Description: _islower to check lower alphabets
- *
  * _islower: function to
  *          check if alphabet characters
  *          are in lowercase

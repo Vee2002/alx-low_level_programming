@@ -1,6 +1,7 @@
 /*
- * File: 0-positive_or_negative.c
- * Auth: Ebenezer Sam-Oladapo
+ * main - Checks code
+ *
+ * Return: Always 0
  */
 
 #include "main.h"

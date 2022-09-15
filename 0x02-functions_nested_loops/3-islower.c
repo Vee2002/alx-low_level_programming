@@ -7,7 +7,7 @@
 /**
  * main - check the code
  *
- * Description: program to check lower alphabets
+ * Description: _islower to check lower alphabets
  *
  * _islower: function to
  *          check if alphabet characters

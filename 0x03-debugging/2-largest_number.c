@@ -4,6 +4,7 @@
 * @a: first parameter passed
 * @b: second parameter passed
 * @c: parameter passed
+* 2-largest_number.c file
 * Return: largest
 */
 int largest_number(int a, int b, int c)

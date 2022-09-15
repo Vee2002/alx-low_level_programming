@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
-* main - Check the code
-* 
-* Return: Always 0(Success)
+* _isupper - Checks for uppercase letters
+* @c: Parameter passed to funcrion 
+* Return: 1 ic characters are uppercase,
+* and 0 if characters are otherwise
 */
 int _isupper(int c)
 {

@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdlib.h>
 /**
 * _isupper - Checks for uppercase letters
 * @c: Parameter passed to funcrion 

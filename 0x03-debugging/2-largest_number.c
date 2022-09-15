@@ -1,6 +1,6 @@
 #include "main.h"
-/**                                                                                                                             
- * largest_number - function returns the largest of 3 numbers                                                                   
+/**                                                                                                                       
+ * largest_number - function returns the largest of 3 numbers                                                                  
  * @a: first parameter passed                                                                                                   
  * @b: second parameter passed                                                                                                  
  * @c: parameter passed                                                                                                         
@@ -17,5 +17,5 @@ return (b);
 else
 {                                                                                                                               
 return (c);
-`}                                                                                                                               
+}
 }               

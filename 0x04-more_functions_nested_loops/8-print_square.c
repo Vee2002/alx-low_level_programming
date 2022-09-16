@@ -12,7 +12,7 @@ void print_square(int size)
 	{
 		for (s1 = 0; s1 < size; s1++)
 		{
-			for (s2 = 0; s2 < size; s2++)
+			for (s2 = 0; s2 < (size - 1); s2++)
 			{
 				putchar('#');
 			}

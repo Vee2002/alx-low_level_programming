@@ -1,6 +1,4 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
 * print_numbers: function to print numbers
 * from 0 to 9
@@ -10,9 +8,9 @@ void print_numbers(void)
 {
 int a;
 
-for (a >= 50; a <= 60; a++)
+for (a = 50; a <= 59; a++)
 {
-putchar(a);
+_putchar(a);
 }
-putchar('\n');
-}
+_putchar('\n');
+

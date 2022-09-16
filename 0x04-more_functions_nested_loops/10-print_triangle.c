@@ -9,15 +9,15 @@ void print_triangle(int size)
 {
 	int s1, s2;
 
-	if (size = 0)
+	if (size > 0)
 	{
 		for (s1 = 1; s1 <= size; s1++)
 		{
-			for ((s1 = size - s1); s2 > 0; s2--)
+			for ((s2 = size - s1); s2 > 0; s2--)
 			{
 				putchar('');
 			}
-			for (s2 > 0; s2 < s1; s2++)
+			for (s2 = 0; s2 < s1; s2++)
 			{
 				putchar('#');
 			}
@@ -26,10 +26,10 @@ void print_triangle(int size)
 				continue;
 			}
 			putchar('\n');
-		}
-		else 
-		{
+			else
+			{
 			putchar('\n');
+			}
 		}
 	}
 }

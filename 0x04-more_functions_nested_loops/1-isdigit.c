@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _isdigit(int c) - Function to check digits
+* _isdigit: Function to check digits
 *@c : parameter passed to function
 *Return: 1 if c is digit, 0 if otherwise
 */

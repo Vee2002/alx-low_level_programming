@@ -5,7 +5,7 @@
 *@b: second parameter
 *@c: third parameter
 *Return: return largest number
-/*
+*/
 int largest_number(int a, int b, int c)
 {
 int largest;

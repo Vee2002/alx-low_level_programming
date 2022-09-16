@@ -6,12 +6,9 @@
 
 #include "main.h"
 /**
- * _islower: This program checks 
- *		 if alphabet characters
- *		 are in lowercase
+ * _islower: function to check for lowercase character
  * @c: passed as the parameter
- *
- * Return: 1 for lowercasse , 0 if not lowercase
+ * Return: 0
  */
 
 int _islower(int c)

@@ -1,29 +1,36 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point
+ * main - Program that prints either fizz,buzz
+ * or fizzbuzz
  * Return: Always 0(Success)
  */
 int main(void)
 {
-	int a;
-	for (a >= 1; a <= 100; a++)
+	int i = 1;
+
+	while  (++i < 100)
 	{
-		if (a % 3)
+		if ((i % 3 == 0) && (i % 5 == 0))
 		{
-			putchar("Fizz");
+			printf("FizzBuzz ");
 		}
-		putchar('\n');
-		else if (a % 5)
+		else if ((i % 3) == 0)
 		{
-			putchar("Buzz");
+			printf("Fizz ");
 		}
-		putchar('\n');
-		else if (a %3 && a % 5)
+		else if ((i % 5) == 0)
 		{
-			putchar("FizzBuzz");
+			if (i !=100)
+			{
+				printf("Buzz ");
+			}
+			else
+			{
+				printf("Buzz ");
+			}
 		}
-		putchar('\n');
+		printf("\n");
 	}
 return 0;
 }

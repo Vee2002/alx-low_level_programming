@@ -1,5 +1,3 @@
-#include <stdip.h>
-cat > 3-print_numbers.c
 #include <stdio.h>
 #include "main.h"
 

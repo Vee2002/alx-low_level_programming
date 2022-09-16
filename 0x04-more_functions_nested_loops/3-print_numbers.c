@@ -12,7 +12,7 @@ int a;
 
 for (a >= 50; a <= 60; a++)
 {
-_putchar(a);
+putchar(a);
 }
-_putchar('\n');
+putchar('\n');
 }

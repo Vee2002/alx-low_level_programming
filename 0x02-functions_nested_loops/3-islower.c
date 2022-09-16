@@ -5,6 +5,7 @@
  */
 
 #include "main.h"
+#include <stdlib.h>
 /**
  * _islower: function to check for lowercase character
  * @c: passed as the parameter

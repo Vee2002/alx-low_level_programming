@@ -14,3 +14,4 @@ while (*(str + i) != '\0')
 	i++;
 putchar('\n');
 }
+}

@@ -1,18 +1,14 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
-*_strlen - Function to print length of a string
-*@*s: Pointer which is a parameter passed
-*
-*Return: returns an integer
+*_strlen - Length of string
+*@s: First parameter
+*Return: returns integer value
 */
-
 int _strlen(char *s)
 {
-int length;
-char *s[] = "My string length";
+char s[] = "String length";
+int len;
 
-length = _strlen(s);
-return (length);
+len = strlen(s);
+return (len);
 }

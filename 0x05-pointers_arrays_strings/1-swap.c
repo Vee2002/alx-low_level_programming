@@ -3,11 +3,11 @@
  * swap_int - Swaps variables
  * @a: First parameter
  * @b: Second parameter
- * Return: returns integer values
+ * Return: returns nothing
  */
 void swap_int(int *a, int *b)
 {
 	int swap = *a;
 	*a = *b;
-	*b = *a;
+	*b = swap;
 }

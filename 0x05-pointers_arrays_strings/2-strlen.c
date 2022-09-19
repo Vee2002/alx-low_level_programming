@@ -13,8 +13,7 @@ int _strlen(char *s)
 int length;
 char *s;
 
-s = "My string length";
-length = _strlen(s);
-putchar("Length of string is: %d\n", length);
+*s = "My string length";
+length = _strlen(*s);
 return (length);
 }

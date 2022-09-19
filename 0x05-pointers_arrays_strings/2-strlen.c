@@ -6,9 +6,9 @@
 */
 int _strlen(char *s)
 {
-char *s[] = "String length";
+char *s[] = "Programming is fun";
 int len;
-
-len = strlen(*s[]);
+for (len = 0; *s[len] != '\0'; len++)
+{
 return (len);
 }

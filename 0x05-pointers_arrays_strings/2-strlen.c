@@ -16,4 +16,5 @@ char *s;
 s = "My string length";
 length = _strlen(s);
 putchar("Length of string is: %d\n", length);
+return (length);
 }

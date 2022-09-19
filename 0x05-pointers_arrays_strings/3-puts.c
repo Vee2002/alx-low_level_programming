@@ -7,7 +7,10 @@
 
 void _puts(char *str)
 {
-char str[] = "I love programming";
-putchar(str[]);
+int i = 0;
+while (*(str + i) != '\0')
+{
+	putchar(*(str + i));
+	i++;
 putchar('\n');
 }

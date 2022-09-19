@@ -11,9 +11,8 @@
 int _strlen(char *s)
 {
 int length;
-char *s;
+char *s[] = "My string length";
 
-*s = "My string length";
-length = _strlen(*s);
+length = _strlen(s);
 return (length);
 }

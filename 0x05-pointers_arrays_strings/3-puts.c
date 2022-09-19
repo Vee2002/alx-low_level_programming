@@ -1,14 +1,13 @@
-#include  "main.h"
-
+#include <stdio.h>
 /**
-*_puts - Prints a string
-*@str: prints a string
+*_puts - Function to print string
+*@str: Parameter passed to function
 *Return: returns nothing
 */
 
 void _puts(char *str)
 {
-char s[] = "This is my code";
-putchar(s);
+char str[] = "I love programming";
+putchar(str[]);
 putchar('\n');
 }

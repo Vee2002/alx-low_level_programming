@@ -11,9 +11,9 @@
 int _strlen(char *s)
 {
 int length;
-char *s;
+char string;
 
-*s = putchar("My first string length");
-length = _strlen(*s);
-putchar("%d\n",length);
+string = "My string length";
+length = _strlen(string);
+putchar("Length of string is: %d\n", length);
 }

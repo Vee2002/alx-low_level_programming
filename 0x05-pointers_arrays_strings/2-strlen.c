@@ -13,3 +13,4 @@ while (*(s + len) != '\0')
 {
 return (len);
 }
+}

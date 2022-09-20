@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
 *_puts - Function to print string
 *@str: Parameter passed to function

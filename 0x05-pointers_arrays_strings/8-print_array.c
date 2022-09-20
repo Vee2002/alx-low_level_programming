@@ -1,4 +1,4 @@
-#include "mian.h"
+#include "main.h"
 /**
 *print_array - Prints number of elements
 *of an array

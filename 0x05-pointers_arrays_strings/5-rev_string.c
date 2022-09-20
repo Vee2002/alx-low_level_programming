@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 *rev_string - Function to reverse string
 *@s: Parameter passed
@@ -7,7 +8,7 @@
 
 void rev_string(char *s)
 {
-int a = o, b,c;
+int a = o, b, c;
 char d;
 
 while (s[a] != '\0')
@@ -16,7 +17,7 @@ a++;
 }
 c = a - 1;
 
-for (b = 0; c >= 0; && b < c; c--, b++)
+for (b = 0; c >= 0) && (b < c; c--, b++)
 {
 d = s[b];
 s[b] = s[c];

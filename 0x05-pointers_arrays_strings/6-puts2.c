@@ -7,13 +7,13 @@
 
 void puts2(char *str)
 {
-int string;
+int i = 0;
 
-for (string = 0; str[string] != '\0'; string++)
+while (*(str + i) != '\0')
 {
-if (string % 2 == 0)
+if (i % 2 == 0)
 {
-putchar(str[string]);
+putchar(*(str + i));
 }
 putchar('\n');
 }

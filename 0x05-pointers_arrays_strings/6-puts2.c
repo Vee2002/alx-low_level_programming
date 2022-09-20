@@ -1,20 +1,19 @@
 #include "main.h"
 /**
-*puts2 - prints half a string
+*puts2 - prints every character
+*of a string
 *@str: Parameter passed
 *Return: returns nothing
 */
 
 void puts2(char *str)
 {
-int i = 0;
+int string;
 
-while (*(str + i) != '\0')
+for (string = 0; str[string] != '\0'; string++)
+if (string % 2 == 0)
 {
-if (i % 2 == 0)
-{
-putchar(*(str + i));
+putchar(str[string]);
 }
 putchar('\n');
-}
 }

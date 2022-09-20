@@ -1,14 +1,16 @@
-#include "main.h"
+#include "main.h
 /**
-*print_rev - Print in reverse
-*@s: Parameter
+*_rev - prints string in reverse
+*@s: First parameter passed
 *Return: returns nothing
 */
+
 void print_rev(char *s)
 {
-	int len = strnlen(s);
-
+int len = strlen(s);
 while (len--)
+{
 putchar(*(s + len));
+}
 putchar('\n');
 }

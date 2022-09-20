@@ -1,4 +1,4 @@
-#include "main.h
+#include "main.h"
 /**
 *_rev - prints string in reverse
 *@s: First parameter passed

@@ -1,23 +1,20 @@
-#include <stdio.h>
 #include "main.h"
 /**
-*puts2 - Prints every character of a string
-*@str: Parameter passed
-*Return: returns void
+*puts2 - prints half a string
+*@str - Parameter passed
+*Return: returns nothing
 */
 
 void puts2(char *str)
 {
-int i = 0;
+int string;
 
-while (*(str + i) != '\0')
+for (string = 0; str[string] != '\0'; string++)
 {
-	if (i % 2 == 0)
-	{
-		putchar(*(str + i));
-		i++;
-	}
-	
-	putchar('\n');
+if (string % 2 == 0)
+{
+putchar(str[string]);
+}
+putchar('\n');
 }
 }

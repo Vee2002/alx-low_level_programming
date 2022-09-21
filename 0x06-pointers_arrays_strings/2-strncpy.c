@@ -2,16 +2,14 @@
 #include "main.h"
 
 /**
-*_strncpy - Copies a string
-*@dest: First parameter
-*@src: Second parameter
-*@n: Third parameter
-*Return: returns a character
-*/
+ * _strcmp - Compares strings
+ * @s1: First parameter
+ * @s2: Second parameter
+ * Return: returns an integer
+ */
 
-char *_strncpy(char *dest, char *src, int n)
+int _strcmp(char *s1, char *s2)
 {
-	strncpy(dest,src,n);
-
-	return (dest);
+	int res = strcmp(s1, s2);
+	return (res);
 }

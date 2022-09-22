@@ -2,29 +2,36 @@
 
 /**
  * cap_string - Capitalizes the words
- * @x: Parameter passed
+ * @str: Parameter passed
  * Return: returns a character
  */
 
-char *cap_string(char *x)
+char *cap_string(char *str)
 {
-char spc[] = {32, 9, '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
+int i = 0;
 
-int len = 13;
-int a = 0, i;
-
-while (x[a])
+while (str[i])
 {
-	i = 0;
-	while (i < len)
-	{
-		if ((a == 0 || x[a - 1] == spc[i]) && (x[a] >= 97 && x[a] <= 122))
-		{
-			x[a] = x[a] - 32;
-			i++;
-		}
-		a++;
-	}
+	while (!(str[i] >= 'a' && str[i] <= 'z'))
+		i++;
+	if (str[i] - 1 == ' ' ||
+		str[i] == '\t' ||
+		str[i] == '\n' ||
+		str[i] == ',' ||
+		str[i] == ';' ||
+		str[i] == '.' ||
+		str[i] == '?' ||
+		str[i] == '"' ||
+		str[i] == '(' ||
+		str[i] == ')' ||
+		str[i] == '{' ||
+		str[i] == '{' ||
+		str[i] == '}' ||
+		i == 0;
+		str[i] = str[i] - 32;
+
+		i++;
 }
-return (x);
+
+return (str);
 }

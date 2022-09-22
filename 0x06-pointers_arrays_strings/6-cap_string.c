@@ -1,11 +1,23 @@
 #include "main.h"
+/**
+ * _strlen - returns length of astring
+ * @s: Parameter passed
+ * Returns an integer
+ */
+
+int _strlen(char *s)
+{
+	int len = o;
+	while (*(s + len) != '\0')
+		len++;
+	return (len);
+}
 
 /**
  * cap_string - Capitalizes the words
  * @str: Parameter passed
  * Return: returns a character
  */
-
 char *cap_string(char *str)
 {
 int index = 0;

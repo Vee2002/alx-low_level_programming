@@ -27,8 +27,9 @@ while (str[i])
 		str[i] == '{' ||
 		str[i] == '{' ||
 		str[i] == '}' ||
-		i == 0;
+		i == 0)
 		str[i] = str[i] - 32;
+
 
 		i++;
 }

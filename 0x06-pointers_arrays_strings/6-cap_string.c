@@ -1,50 +1,27 @@
 #include "main.h"
-/**
- * _strlen - returns length of astring
- * @s: Parameter passed
- * Return: returns an integer
- */
-
-int _strlen(char *s)
-{
-	int len = o;
-	while (*(s + len) != '\0')
-		len++;
-	return (len);
-}
 
 /**
  * cap_string - Capitalizes the words
- * @str: Parameter passed
+ * @x: Parameter passed
  * Return: returns a character
  */
-char *cap_string(char *str)
+char *cap_string(char *x)
 {
-int index = 0;
+	char spc[] = {32, 9, '\n', ',', ';', ',', '!', '?', '"', '(', ')', '{', '}'};
+	int len = 13;
+	int a = 0, i;
 
-while (str[++index])
-{
-	while (!(str[index] >= 'a') && str[index] <= 'z')
-		index++;
-	if (str[index - 1] == ' ' ||
-		str[index - 1] == '\t' ||
-		str[index - 1] == '\n' ||
-		str[index - 1] == ',' ||
-		str[index - 1] == ';' ||
-		str[index - 1] == '.' ||
-		str[index - 1] == '?' ||
-		str[index - 1] == '"' ||
-		str[index - 1] == '(' ||
-		str[index - 1] == ')' ||
-		str[index - 1] == '{' ||
-		str[index - 1] == '{' ||
-		str[index - 1] == '}' ||
-		index == 0)
-		str[index] = str[index] - 32;
-
-
-		index++;
+	while (x[a])
+	{
+		i = 0;
+		while (i < len)
+		{
+			if ((a == 0 || x[a - 1] == spc[i]) && (x[a] >= 97 && x[a] <= 122))
+				x[a] = x[a] - 32;
+			i++;
+		}
+		a++;
+	}
+	return (x);
 }
 
-return (str);
-}

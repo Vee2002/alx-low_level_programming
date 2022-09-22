@@ -3,11 +3,11 @@
 
 /**
 *string_toupper - Changes to uppercase
-*@tr: Parameter passed
+*@x: Parameter passed
 *Return: returns character
 */
 
-char *string_toupper(char *str)
+char *string_toupper(char *x)
 {
 int i = 0;
 while (x[i])

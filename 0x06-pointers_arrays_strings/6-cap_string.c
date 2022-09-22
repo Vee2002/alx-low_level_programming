@@ -6,14 +6,14 @@
  * Return: returns a character
  */
 
-char *cap_string(char *)
+char *cap_string(char *x)
 {
-char spc[] = {32, 9,'\n', ',', ';', '.', '!', '?', '"', '{', '}'};
+char spc[] = {32, 9, '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
 
 int len = 13;
 int a = 0, i;
 
-while (x[i])
+while (x[a])
 {
 	i = 0;
 	while (i < len)

@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
  * leet - Function for encoding
@@ -11,7 +10,7 @@ char *leet(char *x)
 {
 	int a = 0, b, l = 5;
 char tr[5] = {'A', 'E', 'O', 'T', 'L'};
-Char trc[5] = {'4', '3', '0', '7', '1'};
+char trc[5] = {'4', '3', '0', '7', '1'};
 while (x[a])
 {
 b = 0;

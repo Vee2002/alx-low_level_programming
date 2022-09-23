@@ -2,7 +2,7 @@
 
 /**
  * leet - Function for encoding
- * x: Parameter passed
+ * @x: Parameter passed
 *Return: returns a character
 */
 

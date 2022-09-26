@@ -20,7 +20,7 @@ for (j = 0; accept[j]; j++)
 if (s[i] = accept[j])
 break;
 }
-if (s[i] != accept[j])
+else
 break;
 }
 return (s);

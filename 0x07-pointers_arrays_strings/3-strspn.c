@@ -21,7 +21,7 @@ if (s[i] == accept[j])
 break;
 }
 if (!accept[j])
-		break;
-		}
-		return (i);
-		}
+break;
+}
+return (i);
+}

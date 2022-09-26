@@ -12,8 +12,19 @@
 
 char *_strpbrk(char *s, char *accept)
 {
-int *cmp;
-cmp = strpbrk(s, accept);
+	unsigned int i, j;
 
-return (cmp);
+	for (i = 0; s[i]; i++)
+	{
+		for (j = 0; accept[j]; j++)
+		{
+			if (s[i] = accept[j])
+			{
+				return (s + i);
+			}
+			else
+				return('\0');
+		}
+	}
+			
 }

@@ -23,5 +23,5 @@ break;
 if (!accept[j]
 		break;
 		}
-		return (s);
+		return (i);
 		}

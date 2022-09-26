@@ -10,12 +10,12 @@
 
 char *_strchr(char *s, char c)
 {
-char i;
+int i;
 
-while (c[i])
+while (s[i])
 i++;
 {
-if (c[i] == s)
+if (s[i] == c)
 {
 return (s);
 }

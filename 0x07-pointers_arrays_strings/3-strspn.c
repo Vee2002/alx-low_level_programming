@@ -18,10 +18,13 @@ for (i = 0; s[i]; i++)
 for (j = 0; accept[j]; j++)
 {
 if (s[i] = accept[j])
-break;
+{
+return (i);
 }
 else
-break;
+{
+	return ('\0');
 }
-return (s);
+}
+}
 }

@@ -11,8 +11,8 @@ void _puts_recursion(char *s)
 s[] = "My string";
 if (s == '\0')
 {
-	_putchar('\n')'
+	_putchar('\n');
 }
 return (s);
-_putchar(\n);
+_putchar('\n');
 }

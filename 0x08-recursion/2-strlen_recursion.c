@@ -9,14 +9,13 @@
 
 int _strlen_recursion(char *s)
 {
-	int y;
-	char c;
+	int sum = 0;
 
-if (*s != '\0')
-{
-	char c[] = "My string";
-	y = _strlen_recursion(c);
+	if (*s != '\0')
+	{
+		sum++;
+		sum += _strlen_recursion(s + 1);
+	}
 
-	return (y);
+	return (sum);
 }
-}	

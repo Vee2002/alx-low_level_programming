@@ -2,7 +2,7 @@
 
 /**
 *_puts_recursion - Function used
-*@s: Parameter passed
+*@s: String to be printed
 *Return: returns nothing
 */
 
@@ -14,6 +14,7 @@ if (*s == '\0')
 }
 else
 {
-_putchar(s[0]);
+_putchar(s[0i]);
 _puts_recursion(s + 1);
+}
 }

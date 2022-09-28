@@ -9,9 +9,14 @@
 
 int _strlen_recursion(char *s)
 {
-if (*s)
+	int y;
+	char c;
+
+if (*s != '\0')
 {
-_strlen_recursion(s + 1);
-putchar(*s);
+	char c[] = "My string";
+	y = _strlen_recursion(c);
+
+	return (y);
 }
-}
+}	

@@ -17,5 +17,5 @@ else if (n == 1 || n == 0)
 {
 	return (n);
 }
-return (_sqrt(n , square));
+return (isqrt(n, square));
 }

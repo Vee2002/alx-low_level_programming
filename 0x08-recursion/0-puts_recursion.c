@@ -10,4 +10,5 @@ void _puts_recursion(char *s)
 {
 s[] = "A string"
 return (s);
+_putchar(\n);
 }

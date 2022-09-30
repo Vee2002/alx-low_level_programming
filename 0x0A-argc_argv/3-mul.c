@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdib.h>
 
 /**
 *main - Multiplies two numbers
@@ -9,36 +10,20 @@
 
 int main(int argc, char *argv[])
 {
-
-	int count, product = 1;
-
+	int count, mul;
 
 	if (argc > 1 && (argc - 1) == 2)
-
 	{
-
 		for (count = 0; count < argc; count++)
-
 		{
-
-			product *= atoi(argv[count]);
-
+			mul *= atoi(argv[count]);
 		}
-
-		printf("%d\n", product);
-
+		printf("%d\n", mul);
 	}
-
 	else
-
 	{
-
 		printf("Error\n");
-
 		return (1);
-
 	}
-
 	return (0);
 }
-

@@ -10,7 +10,7 @@
 int main(int argc, char *argv[])
 {
 
-	int i, product = 1;
+	int count, product = 1;
 
 
 	if (argc > 1 && (argc - 1) == 2)
@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 
 		}
 
-		printf("%d\n",product);
+		printf("%d\n", product);
 
 	}
 

@@ -4,12 +4,12 @@
 
 /**
 *create_array - Creates an array of characters
-*@int: First parameter passed
+*@size First parameter passed
 *@c: Second parameter passed
 *Return: returns a character
 */
 
-char *create_array(unsigned int size, char c)
+char *create_array(int size, char c)
 {
 unsigned int i;
 char *array;

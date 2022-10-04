@@ -4,7 +4,7 @@
 
 /**
 *create_array - Creates an array of characters
-*@size First parameter passed
+*@size: First parameter passed
 *@c: Second parameter passed
 *Return: returns a character
 */

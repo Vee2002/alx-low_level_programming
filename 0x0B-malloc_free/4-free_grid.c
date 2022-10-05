@@ -1,45 +1,18 @@
-#include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
+#include <stdio.j>
 
 /**
- * alloc_grid - Returns a pointer to a 
- * two dimensional array
- * @width: First parameter passed
- * @height: Second parameter passed
+ * free_grid - frees two dimensional arrays
+ * @grid: First parameter
+ * @height: Second parameter
+ * Return: returns nothing
  */
 
-int **alloc_grid(int width, int height)
+void free_grid(int **grid, int height)
 {
-	int **array;
-	int i = 0, j;
-
-	if (width == 0 || height == 0)
-		return (NULL);
-	array = (int**) malloc(sizeof(int *) * height);
-	if (array != NULL)
-	{
-		for (; i < height; i++)
-		{
-			array[i] = (int*) malloc(sizeof(int) * width);
-			if (array[i] != NULL)
-			{
-				for (j = 0; j < width; j++)
-					array[i][j] = 0;
-			}
-			else
-			{
-				while (i >= 0)
-				{
-					free(array[i]);
-					i--;
-				}
-				free(array);
-				return (NULL);
-			}
-		}
-		return (array);
-	}
-	else
-		return (NULL);
+	int i;
+	for (i = 0; i < height; i++)
+		free(grid[i]);
+	free(grid);
 }

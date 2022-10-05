@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include "main.h"
-#include <stdio.j>
+#include <stdio.h>
 
 /**
  * free_grid - frees two dimensional arrays

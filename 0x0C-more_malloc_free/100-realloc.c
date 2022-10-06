@@ -4,8 +4,8 @@
 /**
  * _realloc - Reallocates a memory block
  * @ptr: First parameter passed
- * new_size: size of new memory block
- * old_size: size of old memory block
+ * @new_size: size of new memory block
+ * @old_size: size of old memory block
  * Return: nothing
  */
 

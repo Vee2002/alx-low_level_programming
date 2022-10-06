@@ -18,6 +18,5 @@ a = (int *)malloc(sizeof(b);
 if (ptr == NULL)
 exit(98);
 
-else
-return (b);
+return (a);
 }

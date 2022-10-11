@@ -2,7 +2,7 @@
 #define DOG_H
 
 /**
-* struct_dog - Variable of type struct dog
+* struct dog - Variable of type struct dog
 * @name: dog name
 * @age: dog age
 * @owner: dog owner

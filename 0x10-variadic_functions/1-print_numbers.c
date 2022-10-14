@@ -5,7 +5,7 @@
 /**
  * print_numbers - Function that prints numbers
  * @separator: String to be printed between numbers
- * @n: Number of arguments 
+ * @n: Number of arguments
  * Return: returns nothing
  */
 

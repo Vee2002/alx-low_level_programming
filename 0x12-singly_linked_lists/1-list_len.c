@@ -1,15 +1,20 @@
 #include <stdlib.h>
 #include "lists.h"
 
+/**
+ * list_t - returns the number of elements in a list
+ * @h: Points to the head of the list
+ * Return: size_t
+ */
+
 size_t list_len(const list_t *h)
 {
-const list_t *temp = h;
-int elements_counter = 0;
+int nodes = 0;
 
-while(temp != NULL)
+while(h)
 {
-elements_counter++;
-temp = temp->next;
+nodes += 1;
+h = h -> next;
 }
-return (elements_counter);
+return (nodes);
 }
